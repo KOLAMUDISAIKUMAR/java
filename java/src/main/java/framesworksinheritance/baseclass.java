@@ -42,7 +42,9 @@ public class baseclass {
 	}
 
 	public void switchframe(int index) {
+	
 		driver.switchTo().frame(index);
+		driver.switchTo().defaultContent();
 	}
 
 	public void alert(String alert) {
